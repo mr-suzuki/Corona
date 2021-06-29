@@ -1,3 +1,32 @@
 h1 {
-  color:blue;
+  color:black;  
+}
+.navbar-nav {
+  margin-left:auto;
+  margin-top:auto; 
+}
+.navbar {
+  height: 60px;
+  width:auto;
+  margin:auto;
+}
+#navbarNav {
+  width:100%;
+}
+.imgLg {
+  margin-left: -1em;
+  position:relative;
+}
+#theH1 {
+  position:absolute;
+  color:white;
+  top:150px;
+  right:50px;
+  font-weight:200;
+}
+.card {
+  margin: 0 auto; /* Added */
+}
+.card-2 {
+  padding-top: 50px;
 }
