@@ -40,6 +40,20 @@ h1 {
     height:auto;
   }  
 }
+@media (max-width: 767px) {
+  h1 {
+   font-size: 10px;
+  }
+  .jumbotron {
+    max-width:100vw;
+    margin: 0 auto;
+  }
+  .navbar-brand img {
+    position:absolute;
+    left:5px;
+    top:5px;
+  }
+}
 .jumbotron {
   border-radius:none;
 }
@@ -48,4 +62,5 @@ h1 {
 }
 * {
   max-width:100vw;
+  font-family:serif;
 }
