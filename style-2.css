@@ -1,0 +1,62 @@
+.title {
+    font-weight: 800;
+    text-shadow:1px 1px black;
+    font-size:1.2em;
+}
+.firstImage {
+    position:relative;
+    height:91vh;
+}
+.covid {
+    position:absolute;
+    left:8vw;
+    bottom:22vh;
+    text-shadow:1px 1px black;
+}
+.firstText {
+    position:absolute;
+    left:8vw;
+    bottom:16vh;
+    text-shadow:1px 1px black;
+}
+.navbar {
+    background-color:rgb(40, 176, 218);
+}
+:root {
+    background-color:rgb(40, 176, 218); 
+}
+.advisers {
+    background-color:rgb(40, 176, 218);
+}
+body {
+    background-color:rgb(40, 176, 218);
+}
+.myBtn {
+    position:absolute;
+    left:8vw;
+    bottom:9vh;
+    background-color: rgb(146, 140, 140);
+    color:rgb(184, 179, 179);
+}
+@media (max-width:568px) {
+    .firstText {
+        position:absolute;
+        left:3vw;
+        
+    }
+}
+.jumbotron h2 {
+    color:rgb(8, 28, 94);
+}
+p {
+    margin: auto 80px;
+}
+.randomMan {
+    max-width:50%;
+}
+@media (min-width:768px) {
+    .card {
+        height:60vh;
+        }
+}
+    
