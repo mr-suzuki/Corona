@@ -10,13 +10,13 @@
 .covid {
     position:absolute;
     left:8vw;
-    bottom:22vh;
+    top:66vh;
     text-shadow:1px 1px black;
 }
 .firstText {
     position:absolute;
     left:8vw;
-    bottom:16vh;
+    top:76vh;
     text-shadow:1px 1px black;
 }
 .navbar {
@@ -34,15 +34,29 @@ body {
 .myBtn {
     position:absolute;
     left:8vw;
-    bottom:9vh;
+    top:88vh;
     background-color: rgb(146, 140, 140);
     color:rgb(184, 179, 179);
 }
 @media (max-width:568px) {
-    .firstText {
+   
+    .firstText, .covid, .myBtn {
+        font-size:70%; 
+        size:50%;
         position:absolute;
-        left:3vw;
-        
+                
+    }
+    .firstText {
+        top:61vh;
+    }
+    .covid {
+        top:58vh;
+    }
+    .myBtn {
+        top:66vh;
+    }
+    .firstImage {
+        zoom:80%;
     }
 }
 .jumbotron h2 {
@@ -59,4 +73,20 @@ p {
         height:60vh;
         }
 }
-    
+@media (min-width:568px) and (max-width:768px)  {
+    .firstImage {
+        zoom:80%;
+    }
+    .covid {
+        top:55vh;
+    }
+    .firstText {
+        top:60vh;
+    }
+    .myBtn {
+        top:65vh;
+    }
+    .covid, .firstText, .myBtn {
+        font-size:80%;
+    }
+}  
