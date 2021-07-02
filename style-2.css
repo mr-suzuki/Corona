@@ -6,6 +6,7 @@
 .firstImage {
     position:relative;
     height:91vh;
+    
 }
 .covid {
     position:absolute;
@@ -39,40 +40,27 @@ body {
     color:rgb(184, 179, 179);
 }
 @media (max-width:568px) {
-   
-    .firstText, .covid, .myBtn {
-        font-size:70%; 
-        size:50%;
-        position:absolute;
-                
-    }
-    .firstText {
-        top:61vh;
-    }
-    .covid {
-        top:58vh;
-    }
-    .myBtn {
-        top:66vh;
-    }
-    .firstImage {
-        zoom:80%;
-    }
+   .myBtn {
+       left:40%;
+   }
+   .covid {
+       left:35%;
+   }
+    
 }
 .jumbotron h2 {
     color:rgb(8, 28, 94);
 }
-p {
-    margin: auto 80px;
-}
+
 .randomMan {
     max-width:50%;
 }
 @media (min-width:768px) {
     .card {
-        height:60vh;
-        }
+        min-height:46vh;
+    }
 }
+
 @media (min-width:568px) and (max-width:768px)  {
     .firstImage {
         zoom:80%;
@@ -90,3 +78,72 @@ p {
         font-size:80%;
     }
 }  
+.card {
+    width:80%;
+}
+body{margin-top:20px;}
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
+.reviews {
+    height:100vh;
+}
